@@ -1,0 +1,138 @@
+body{
+    background-color: linen;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    position:fixed;
+    bottom:0;
+    width: 85px;
+    height: 100%;
+    background-color: darkslateblue;
+}
+
+.header:hover{
+    width: 300px;
+}
+
+.menu-list{
+    list-style: none;
+    font-weight: lighter;
+    font-size:22px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.menu-list a{
+text-decoration: none;
+color:white;
+padding: 10px;
+display: flex;
+align-items: center;
+}
+
+.menu-list li{
+    min-width: 300px;
+    padding: 0 10px;
+}
+
+.menu-list li:hover{
+    background-color: lightgreen;
+    font-weight: normal;
+}
+
+.menu-list a::before{
+    content: url(https://img.icons8.com/ios/30/ffffff/checked--v1.png);
+    margin-right:35px;
+    }
+
+.section-form{
+    position:relative;
+    height: 200px;
+    margin-left:85px;
+}
+
+.container-form{
+    position: absolute;
+    top:100%;
+    left:45%;
+    border: 2px solid white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:400px;
+    height: 550px;
+    display:block;
+    margin:0 auto;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+div h1{
+    text-align: center;
+    color:blueviolet;
+    width: 350px;
+    margin: 0 auto;
+    font-weight: bolder;
+
+}
+div p{
+    text-align: center;
+    font-size: 12px;
+}
+
+form{
+    padding-left: 15px;
+}
+
+form label{
+    display:block;
+    color:blueviolet;
+    letter-spacing: 2px;
+    font-size:14px;
+    margin-top: 30px;
+}
+
+form input{
+    width: 350px;
+    padding: 5px;
+    border:1px solid grey;
+}
+
+div button{
+    display:block;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 50px;
+    background-color: #3c025c;
+    color:white;
+    font-size:10px;
+    padding:10px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+input:required{
+    border: 1px solid blue;
+}
+
+
+.DNI:invalid{
+    border: 1px solid red;
+}
+
+.DNI:valid{
+    border: 1px solid blue;
+}
+
+button:hover{
+    background-color: lightgreen;
+    border:none;
+    font-weight: bold;
+    font-size:20px;
+}
+
+button:active{
+    background-color: black;
+}
