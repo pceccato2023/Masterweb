@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#">Sección 1</a></li>
+                <li><a href="#">Sección 2</a></li>
+                <li><a href="#">Sección 3</a></li>
+                <li><a href="#">Sección 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section-form">
+    <div class="container-form">
+        <h1>Introduce tus datos para crear una cuenta</h1>
+        <p><i>Los valores marcados con un * son obligatorios</i></p>
+        <div>
+            <form>
+                <label>NOMBRE*:</label>
+                <input placeholder="Introduce tu nombre..." type="text" required>
+                <label>PRIMER APELLIDO*:</label>
+                <input placeholder="Introduce tu primer apellido..." type="text" required>
+                <label>SEGUNDO APELLIDO:</label>
+                <input placeholder="Introduce tu segundo apellido..." type="text">
+                <label>DNI*:</label>
+                <input class="DNI" placeholder="Introduce tu DNI..." type="text" pattern="=[0-9]{8}[A-Za-z]{1}" required>
+            </form>
+            <button>REGISTRO</button>
+        </div>
+    </div>   
+
+
+
+    </section>
+
+    
+</body>
+</html>
