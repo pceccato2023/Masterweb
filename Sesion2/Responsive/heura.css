@@ -1,0 +1,89 @@
+
+@font-face{
+    font-family: "heura";
+    src: url(Assets/Heura.woff);
+}
+
+body{
+    font-family:"heura";
+    font-size:25px;
+}
+
+header{
+    background-color: #f9e021;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-header{
+    width: 8%;
+    margin-left: 2%;
+}
+
+.header-list{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header-list-item{
+    display: inline-block;
+    margin:10px;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.header-list-item:hover{
+    color:white;
+    font-weight: bolder;
+    text-decoration: underline 3px;
+}
+
+.nav-header{
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.fa-solid{
+    background-color: white;
+    border-radius: 15px;
+    padding:5px;
+}
+
+.fa-solid:hover{
+    background-color: black;
+    color:white;
+}
+
+@media screen and (max-width:1024px){
+    .header-list{
+        display:none;
+    }
+    .nav-header{
+        padding-right: 0px;
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width:1024px){
+    .fa-solid{
+        display:none;}
+    .header-list{
+        margin-right: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

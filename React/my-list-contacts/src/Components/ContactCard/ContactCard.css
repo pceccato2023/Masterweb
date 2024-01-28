@@ -1,0 +1,32 @@
+.contact-card{
+    display: flex;
+    margin:10px;
+    gap:10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 350px;
+    color:black;
+    font-weight: bolder;
+}
+
+.contact-img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-number{
+    margin: 5px;
+}
+
+.contact-name{
+    margin:5px
+}
+
+.contact-button{
+    border-style: none;
+    background-color: lightcoral;
+    border-radius: 5px;
+    color:white;
+    font-size:10px;
+    padding: 5px;
+}

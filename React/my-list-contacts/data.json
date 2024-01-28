@@ -1,0 +1,18 @@
+{
+  "contacts": [
+    {
+      "id": "2",
+      "name": "Cristina",
+      "surname": "Fernandez Kirchner",
+      "telefono": "654565454",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cristina_Fern%C3%A1ndez_de_Kirchner_2011-12-10.jpg"
+    },
+    {
+      "id": "1",
+      "name": "Javier",
+      "surname": "Milei",
+      "telefono": "654565454",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/45/Cristina_Fern%C3%A1ndez_de_Kirchner_y_Javier_Milei_%28cropped%29.jpg"
+    }
+  ]
+}

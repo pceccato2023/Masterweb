@@ -1,0 +1,12 @@
+body{
+    background-color: lightblue;
+    color:white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap:5px;
+}

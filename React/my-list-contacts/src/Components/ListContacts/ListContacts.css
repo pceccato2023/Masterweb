@@ -1,0 +1,19 @@
+.form-container{
+    width: 1000px;
+    display: flex;
+}
+
+.newContact-btn{
+    background-color: #D6B85A;
+    border-color: white;
+    color:white;
+    padding: 5px;
+
+}
+
+.newcontact-input{
+    border-color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 350px;
+}
